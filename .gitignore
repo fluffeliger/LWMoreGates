@@ -1,3 +1,11 @@
+# VS
+.vs/*
+.vs
+obj/*
+obj
+debug/*
+debug
+
 # Prerequisites
 *.d
 

@@ -1,0 +1,133 @@
+#########
+# Gates #
+#########
+
+OrGate:
+    column: "Logic"
+    category: "Gates"
+    prefab:
+        blocks:
+            -
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: 4CCF15
+        inputs:
+            -
+                position: (-0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: MoreGates.Server.OrGate
+    placingRules:
+        gridPlacingDimensions: (2, 1)
+
+NorGate:
+    column: "Logic"
+    category: "Gates"
+    prefab:
+        blocks:
+            -
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: 236109
+        inputs:
+            -
+                position: (-0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: MoreGates.Server.NOrGate
+    placingRules:
+        gridPlacingDimensions: (2, 1)
+
+NandGate:
+    column: "Logic"
+    category: "Gates"
+    prefab:
+        blocks:
+            -
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: 4F1311
+        inputs:
+            -
+                position: (-0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: MoreGates.Server.NAndGate
+    placingRules:
+        gridPlacingDimensions: (2, 1)
+
+XorGate:
+    column: "Logic"
+    category: "Gates"
+    prefab:
+        blocks:
+            -
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: 1D2F8E
+        inputs:
+            -
+                position: (-0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: MoreGates.Server.XOrGate
+    placingRules:
+        gridPlacingDimensions: (2, 1)
+
+XnorGate:
+    column: "Logic"
+    category: "Gates"
+    prefab:
+        blocks:
+            -
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: 0F184A
+        inputs:
+            -
+                position: (-0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: MoreGates.Server.XNOrGate
+    placingRules:
+        gridPlacingDimensions: (2, 1)

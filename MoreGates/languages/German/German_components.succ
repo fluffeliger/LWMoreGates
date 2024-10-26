@@ -1,0 +1,7 @@
+MoreGates.NandGate : "NUND Gatter"
+MoreGates.OrGate : "ODER Gatter"
+MoreGates.NorGate : "NODER Gatter"
+MoreGates.XorGate : "XODER Gatter"
+MoreGates.XnorGate : "XNODER Gatter"
+
+ComponentCategory.Gates : "Gatter"

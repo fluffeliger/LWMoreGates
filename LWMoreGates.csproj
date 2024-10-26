@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="MoreGates\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LogicAPI">
+      <HintPath>G:\Libaries\Steam\steamapps\common\Logic World\Logic_World_Data\Managed\LogicAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicAPI.Server">
+      <HintPath>G:\Libaries\Steam\steamapps\common\Logic World\Server\LogicAPI.Server.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

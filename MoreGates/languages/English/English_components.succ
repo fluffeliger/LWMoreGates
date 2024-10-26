@@ -1,0 +1,7 @@
+MoreGates.NandGate : "NAND Gate"
+MoreGates.OrGate : "OR Gate"
+MoreGates.NorGate : "NOR Gate"
+MoreGates.XorGate : "XOR Gate"
+MoreGates.XnorGate : "XNOR Gate"
+
+ComponentCategory.Gates : "Gates"
