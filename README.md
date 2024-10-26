@@ -13,3 +13,6 @@ To install mods, just drag and drop the `MoreGates` folder inside your `/path/to
 
 ## Other Mods
 You can see my other creations [here](https://github.com/fluffeliger/Logicworld-Mods).
+
+---
+###### Made with &lt;3 by fluffy
