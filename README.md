@@ -12,4 +12,7 @@ The new `XOR Gate` is a smaller version of the original `XOR` to minimize space.
 To install mods, just drag and drop the `MoreGates` folder inside your `/path/to/LogicWorld/GameData/` folder and you are ready to enjoy the mod!
 
 ## Other Mods
-You can see my other creations [here](https://github.com/fluffeliger/LogicworldMods).
+You can see my other creations [here](https://github.com/fluffeliger/Logicworld-Mods).
+
+---
+###### Made with &lt;3 by fluffy
